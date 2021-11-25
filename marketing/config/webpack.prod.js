@@ -7,7 +7,8 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: 'http://mfe-marketing-node-a-mfe-marketing.apps.ayzhang-1.cp.fyre.ibm.com/',
+    //publicPath: 'http://mfe-marketing-node-a-mfe-marketing.apps.ayzhang-1.cp.fyre.ibm.com/',
+    publicPath: 'auto',
   },
   plugins: [
     new ModuleFederationPlugin({
